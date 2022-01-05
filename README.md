@@ -1,1 +1,41 @@
 # facebook-clone
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="child-element">
+            <h1 style="text-align: center; color: blue;">facebook</h1>
+
+            <input type="text" placeholder="Email address or phone number" id="inputField">
+            <input placeholder="Password" class="field" type="password" id="inputFieldi"><br>
+            <button class="btn btn-primary" id="btn-1">Log In</button>
+            <a href="#">Forgotten password?</a>
+
+
+            <button id="btn-2"> Create New Account</button>
+        </div>
+
+
+        <p>
+            <center><b>Create a Page</b>for a celebrity,brand or business.</center>
+        </p>
+        <footer>&copy @2022 pratik Bhattarai</footer>
+    </div>
+
+
+</body>
+
+</html>
